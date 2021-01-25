@@ -1,0 +1,8 @@
+Feature: User login
+
+Scenario: testing login
+
+Given User is on login login page 
+When User eneter user and password
+And User submit login Button
+Then User go to homepage
